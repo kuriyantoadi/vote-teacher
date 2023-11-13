@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class C_test extends BaseController
+class Login extends BaseController
 {
     public function index(): string
     {
-        return view('v_test');
+        return view('login');
     }
 }
